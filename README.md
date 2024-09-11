@@ -2,6 +2,12 @@
 
 Este projeto utiliza a API do GitHub para buscar informações de perfil e exibir dados relevantes.
 
+## Clonar o Repositório
+
+```
+git clone https://github.com/NATANGOATOSO/github-profile-app.git
+```
+
 ## Configuração do Token de Acesso Pessoal
 
 ### 1. Gerar um Token de Acesso Pessoal
