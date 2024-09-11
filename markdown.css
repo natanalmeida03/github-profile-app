@@ -1,0 +1,148 @@
+/*GERADO PELO CHAT GPT COM PEQUENAS MUDANCAS*/
+
+.readme {
+  max-width: 800px;
+  max-height: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  overflow-y: auto;
+}
+
+/* Títulos */
+.readme h1,
+.readme h2,
+.readme h3,
+.readme h4,
+.readme h5,
+.readme h6 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.readme h1 {
+  font-size: 2em;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.3em;
+}
+
+.readme h2 {
+  font-size: 1.5em;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.2em;
+}
+
+.readme h3 {
+  font-size: 1.25em;
+}
+
+.readme h4 {
+  font-size: 1.1em;
+}
+
+.readme h5,
+.readme h6 {
+  font-size: 1em;
+}
+
+/* Parágrafos */
+.readme p {
+  margin: 0 0 1em;
+  padding: 0;
+}
+
+/* Links */
+.readme a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.readme a:hover {
+  text-decoration: underline;
+}
+
+/* Listas */
+.readme ul,
+.readme ol {
+  margin: 0 0 1em 1.5em;
+  padding: 0;
+}
+
+.readme li {
+  margin-bottom: 0.5em;
+}
+
+/* Tabelas */
+.readme table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+}
+
+.readme th,
+.readme td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.readme th {
+  background-color: #f4f4f4;
+}
+
+/* Códigos */
+.readme pre {
+  background: #262c36;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+
+.readme code {
+  background: #262c36;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+/* Blocos de citação */
+.readme blockquote {
+  border-left: 4px solid #ddd;
+  margin: 1em 0;
+  padding-left: 1em;
+  color: #555;
+  font-style: italic;
+}
+
+/* Imagens */
+.readme img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Alertas e avisos */
+.readme .alert {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
+.readme .alert-info {
+  background-color: #e7f1ff;
+  border: 1px solid #d0e4f1;
+  color: #31708f;
+}
+
+.readme .alert-warning {
+  background-color: #fff3cd;
+  border: 1px solid #ffeeba;
+  color: #856404;
+}
+
+.readme .alert-danger {
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  color: #721c24;
+}

@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #151b23;
+  color: #d1d7e0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.search input {
+  padding: 10px;
+  font-size: 14px;
+  background-color: transparent;
+  border: 1px solid #d1d7e0;
+  border-radius: 4px;
+  width: 350px;
+  color: #d1d7e0;
+}
+
+.search input:focus {
+  border-color: #d1d7e0;
+}
+
+.profile-container {
+  background-color: #212830;
+  width: 80%;
+  max-width: 1200px;
+  min-height: 700px;
+  border: 1px solid #d1d7e0;
+  border-radius: 8px;
+  display: none;
+}
+
+.profile-card {
+  margin: 10px 30px;
+  max-width: 300px;
+}
+
+.profile-card img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  align-self: center;
+  display: none;
+}
+
+.profile-card h1 {
+  font-size: 2rem;
+}
+
+.profile-card h2 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.foll {
+  display: flex;
+  gap: 3px;
+  margin-bottom: 30px;
+}
+
+.foll span {
+  font-weight: bold;
+}
+
+.readme {
+  flex: 1;
+}
